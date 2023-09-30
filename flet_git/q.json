@@ -1,0 +1,2234 @@
+{
+	"lst": [{
+			"question": "What is Git's primary function?",
+			"answers": [{
+					"answer": "Version control system",
+					"correct": true
+				},
+				{
+					"answer": "Database management system",
+					"correct": false
+				},
+				{
+					"answer": "Text editor",
+					"correct": false
+				},
+				{
+					"answer": "Web browser",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "Which option is used to print the Git suite version?",
+			"answers": [{
+					"answer": "git --version",
+					"correct": true
+				},
+				{
+					"answer": "git -h",
+					"correct": false
+				},
+				{
+					"answer": "git --help",
+					"correct": false
+				},
+				{
+					"answer": "git -C",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the -C <path> option do in Git?",
+			"answers": [{
+					"answer": "Changes the working directory for Git operations",
+					"correct": true
+				},
+				{
+					"answer": "Creates a new Git repository",
+					"correct": false
+				},
+				{
+					"answer": "Prints the Git HTML documentation path",
+					"correct": false
+				},
+				{
+					"answer": "Lists all available Git commands",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "How can you pass a configuration parameter to a Git command?",
+			"answers": [{
+					"answer": "Using -c <name>=<value>",
+					"correct": true
+				},
+				{
+					"answer": "By editing the Git configuration file directly",
+					"correct": false
+				},
+				{
+					"answer": "Using --exec-path=<path>",
+					"correct": false
+				},
+				{
+					"answer": "Using git <name>=<value>",
+					"correct": false
+				}
+			],
+			"difficulty": 3
+		},
+		{
+			"question": "What does the --no-pager option do in Git?",
+			"answers": [{
+					"answer": "Prevents Git from piping output into a pager",
+					"correct": true
+				},
+				{
+					"answer": "Enables paging for Git output",
+					"correct": false
+				},
+				{
+					"answer": "Prints the path to Git's HTML documentation",
+					"correct": false
+				},
+				{
+					"answer": "Lists all Git subcommands",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the --bare option indicate in Git?",
+			"answers": [{
+					"answer": "Treats the repository as a bare repository",
+					"correct": true
+				},
+				{
+					"answer": "Disables Git commands",
+					"correct": false
+				},
+				{
+					"answer": "Enables interactive Git shell",
+					"correct": false
+				},
+				{
+					"answer": "Converts a bare repository to a regular repository",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "How can you view the latest Git documentation in a formatted and hyperlinked copy?",
+			"answers": [{
+					"answer": "At https://git.github.io/htmldocs/git.html",
+					"correct": true
+				},
+				{
+					"answer": "Using the gitcli[7] manual page",
+					"correct": false
+				},
+				{
+					"answer": "By executing 'git help command'",
+					"correct": false
+				},
+				{
+					"answer": "By running 'git --help'",
+					"correct": false
+				}
+			],
+			"difficulty": 3
+		},
+		{
+			"question": "What does the -v option do in Git?",
+			"answers": [{
+					"answer": "Prints the Git suite version",
+					"correct": true
+				},
+				{
+					"answer": "Prints the synopsis and a list of the most commonly used commands",
+					"correct": false
+				},
+				{
+					"answer": "Runs Git in verbose mode",
+					"correct": false
+				},
+				{
+					"answer": "Enables paging for Git output",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the -h option do in Git?",
+			"answers": [{
+					"answer": "Prints the synopsis and a list of the most commonly used commands",
+					"correct": true
+				},
+				{
+					"answer": "Prints the Git suite version",
+					"correct": false
+				},
+				{
+					"answer": "Runs Git in help mode",
+					"correct": false
+				},
+				{
+					"answer": "Enables paging for Git output",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What is the purpose of the -C <path> option in Git?",
+			"answers": [{
+					"answer": "Changes the working directory for Git operations",
+					"correct": true
+				},
+				{
+					"answer": "Creates a new Git repository",
+					"correct": false
+				},
+				{
+					"answer": "Prints the Git HTML documentation path",
+					"correct": false
+				},
+				{
+					"answer": "Lists all available Git commands",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "How can you set a configuration parameter for a Git command?",
+			"answers": [{
+					"answer": "Using -c <name>=<value>",
+					"correct": true
+				},
+				{
+					"answer": "By editing the Git configuration file directly",
+					"correct": false
+				},
+				{
+					"answer": "Using --exec-path=<path>",
+					"correct": false
+				},
+				{
+					"answer": "Using git <name>=<value>",
+					"correct": false
+				}
+			],
+			"difficulty": 3
+		},
+		{
+			"question": "What does the --no-pager option do in Git?",
+			"answers": [{
+					"answer": "Prevents Git from piping output into a pager",
+					"correct": true
+				},
+				{
+					"answer": "Enables paging for Git output",
+					"correct": false
+				},
+				{
+					"answer": "Prints the path to Git's HTML documentation",
+					"correct": false
+				},
+				{
+					"answer": "Lists all Git subcommands",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the --bare option indicate in Git?",
+			"answers": [{
+					"answer": "Treats the repository as a bare repository",
+					"correct": true
+				},
+				{
+					"answer": "Disables Git commands",
+					"correct": false
+				},
+				{
+					"answer": "Enables interactive Git shell",
+					"correct": false
+				},
+				{
+					"answer": "Converts a bare repository to a regular repository",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the purpose of the -v option in Git?",
+			"answers": [{
+					"answer": "Prints the Git suite version",
+					"correct": true
+				},
+				{
+					"answer": "Prints the synopsis and a list of the most commonly used commands",
+					"correct": false
+				},
+				{
+					"answer": "Runs Git in verbose mode",
+					"correct": false
+				},
+				{
+					"answer": "Enables paging for Git output",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What is the purpose of the -h option in Git?",
+			"answers": [{
+					"answer": "Prints the synopsis and a list of the most commonly used commands",
+					"correct": true
+				},
+				{
+					"answer": "Prints the Git suite version",
+					"correct": false
+				},
+				{
+					"answer": "Runs Git in help mode",
+					"correct": false
+				},
+				{
+					"answer": "Enables paging for Git output",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is Git's primary purpose?",
+			"answers": [{
+					"answer": "Version control system",
+					"correct": true
+				},
+				{
+					"answer": "Database management system",
+					"correct": false
+				},
+				{
+					"answer": "Text editor",
+					"correct": false
+				},
+				{
+					"answer": "Web browser",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "Which option allows you to change the working directory for Git operations?",
+			"answers": [{
+					"answer": "-C <path>",
+					"correct": true
+				},
+				{
+					"answer": "--version",
+					"correct": false
+				},
+				{
+					"answer": "--help",
+					"correct": false
+				},
+				{
+					"answer": "--man-path",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "How can you pass a configuration parameter to a Git command?",
+			"answers": [{
+					"answer": "Using -c <name>=<value>",
+					"correct": true
+				},
+				{
+					"answer": "By editing the Git configuration file directly",
+					"correct": false
+				},
+				{
+					"answer": "Using --exec-path=<path>",
+					"correct": false
+				},
+				{
+					"answer": "Using git <name>=<value>",
+					"correct": false
+				}
+			],
+			"difficulty": 3
+		},
+		{
+			"question": "What is the purpose of the --html-path option in Git?",
+			"answers": [{
+					"answer": "Prints the path to Git's HTML documentation",
+					"correct": true
+				},
+				{
+					"answer": "Enables paging for Git output",
+					"correct": false
+				},
+				{
+					"answer": "Runs Git in verbose mode",
+					"correct": false
+				},
+				{
+					"answer": "Lists all Git subcommands",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the primary function of Git?",
+			"answers": [{
+					"answer": "Version control system",
+					"correct": true
+				},
+				{
+					"answer": "Database management system",
+					"correct": false
+				},
+				{
+					"answer": "Text editor",
+					"correct": false
+				},
+				{
+					"answer": "Web browser",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "Which option is used to print the Git suite version?",
+			"answers": [{
+					"answer": "git --version",
+					"correct": true
+				},
+				{
+					"answer": "git -h",
+					"correct": false
+				},
+				{
+					"answer": "git --help",
+					"correct": false
+				},
+				{
+					"answer": "git -C",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the -C <path> option do in Git?",
+			"answers": [{
+					"answer": "Changes the working directory for Git operations",
+					"correct": true
+				},
+				{
+					"answer": "Creates a new Git repository",
+					"correct": false
+				},
+				{
+					"answer": "Prints the Git HTML documentation path",
+					"correct": false
+				},
+				{
+					"answer": "Lists all available Git commands",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "How can you pass a configuration parameter to a Git command?",
+			"answers": [{
+					"answer": "Using -c <name>=<value>",
+					"correct": true
+				},
+				{
+					"answer": "By editing the Git configuration file directly",
+					"correct": false
+				},
+				{
+					"answer": "Using --exec-path=<path>",
+					"correct": false
+				},
+				{
+					"answer": "Using git <name>=<value>",
+					"correct": false
+				}
+			],
+			"difficulty": 3
+		},
+		{
+			"question": "What does the --no-pager option do in Git?",
+			"answers": [{
+					"answer": "Prevents Git from piping output into a pager",
+					"correct": true
+				},
+				{
+					"answer": "Enables paging for Git output",
+					"correct": false
+				},
+				{
+					"answer": "Prints the path to Git's HTML documentation",
+					"correct": false
+				},
+				{
+					"answer": "Lists all Git subcommands",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the --bare option indicate in Git?",
+			"answers": [{
+					"answer": "Treats the repository as a bare repository",
+					"correct": true
+				},
+				{
+					"answer": "Disables Git commands",
+					"correct": false
+				},
+				{
+					"answer": "Enables interactive Git shell",
+					"correct": false
+				},
+				{
+					"answer": "Converts a bare repository to a regular repository",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "How can you view the latest Git documentation in a formatted and hyperlinked copy?",
+			"answers": [{
+					"answer": "At https://git.github.io/htmldocs/git.html",
+					"correct": true
+				},
+				{
+					"answer": "Using the gitcli[7] manual page",
+					"correct": false
+				},
+				{
+					"answer": "By executing 'git help command'",
+					"correct": false
+				},
+				{
+					"answer": "By running 'git --help'",
+					"correct": false
+				}
+			],
+			"difficulty": 3
+		},
+		{
+			"question": "What does the -v option do in Git?",
+			"answers": [{
+					"answer": "Prints the Git suite version",
+					"correct": true
+				},
+				{
+					"answer": "Prints the synopsis and a list of the most commonly used commands",
+					"correct": false
+				},
+				{
+					"answer": "Runs Git in verbose mode",
+					"correct": false
+				},
+				{
+					"answer": "Enables paging for Git output",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the -h option do in Git?",
+			"answers": [{
+					"answer": "Prints the synopsis and a list of the most commonly used commands",
+					"correct": true
+				},
+				{
+					"answer": "Prints the Git suite version",
+					"correct": false
+				},
+				{
+					"answer": "Runs Git in help mode",
+					"correct": false
+				},
+				{
+					"answer": "Enables paging for Git output",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What is the purpose of the -C <path> option in Git?",
+			"answers": [{
+					"answer": "Changes the working directory for Git operations",
+					"correct": true
+				},
+				{
+					"answer": "Creates a new Git repository",
+					"correct": false
+				},
+				{
+					"answer": "Prints the Git HTML documentation path",
+					"correct": false
+				},
+				{
+					"answer": "Lists all available Git commands",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "How can you set a configuration parameter for a Git command?",
+			"answers": [{
+					"answer": "Using -c <name>=<value>",
+					"correct": true
+				},
+				{
+					"answer": "By editing the Git configuration file directly",
+					"correct": false
+				},
+				{
+					"answer": "Using --exec-path=<path>",
+					"correct": false
+				},
+				{
+					"answer": "Using git <name>=<value>",
+					"correct": false
+				}
+			],
+			"difficulty": 3
+		},
+		{
+			"question": "What does the --no-pager option do in Git?",
+			"answers": [{
+					"answer": "Prevents Git from piping output into a pager",
+					"correct": true
+				},
+				{
+					"answer": "Enables paging for Git output",
+					"correct": false
+				},
+				{
+					"answer": "Prints the path to Git's HTML documentation",
+					"correct": false
+				},
+				{
+					"answer": "Lists all Git subcommands",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the --bare option indicate in Git?",
+			"answers": [{
+					"answer": "Treats the repository as a bare repository",
+					"correct": true
+				},
+				{
+					"answer": "Disables Git commands",
+					"correct": false
+				},
+				{
+					"answer": "Enables interactive Git shell",
+					"correct": false
+				},
+				{
+					"answer": "Converts a bare repository to a regular repository",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the purpose of the -v option in Git?",
+			"answers": [{
+					"answer": "Prints the Git suite version",
+					"correct": true
+				},
+				{
+					"answer": "Prints the synopsis and a list of the most commonly used commands",
+					"correct": false
+				},
+				{
+					"answer": "Runs Git in verbose mode",
+					"correct": false
+				},
+				{
+					"answer": "Enables paging for Git output",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What is the purpose of the -h option in Git?",
+			"answers": [{
+					"answer": "Prints the synopsis and a list of the most commonly used commands",
+					"correct": true
+				},
+				{
+					"answer": "Prints the Git suite version",
+					"correct": false
+				},
+				{
+					"answer": "Runs Git in help mode",
+					"correct": false
+				},
+				{
+					"answer": "Enables paging for Git output",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the purpose of the 'git-add' command?",
+			"answers": [{
+					"answer": "Add file contents to the index",
+					"correct": true
+				},
+				{
+					"answer": "Apply a series of patches from a mailbox",
+					"correct": false
+				},
+				{
+					"answer": "Create an archive of files from a named tree",
+					"correct": false
+				},
+				{
+					"answer": "Use binary search to find the commit that introduced a bug",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the 'git-am' command do?",
+			"answers": [{
+					"answer": "Apply a series of patches from a mailbox",
+					"correct": true
+				},
+				{
+					"answer": "Add file contents to the index",
+					"correct": false
+				},
+				{
+					"answer": "Create an archive of files from a named tree",
+					"correct": false
+				},
+				{
+					"answer": "Use binary search to find the commit that introduced a bug",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the purpose of the 'git-archive' command?",
+			"answers": [{
+					"answer": "Create an archive of files from a named tree",
+					"correct": true
+				},
+				{
+					"answer": "Add file contents to the index",
+					"correct": false
+				},
+				{
+					"answer": "Apply a series of patches from a mailbox",
+					"correct": false
+				},
+				{
+					"answer": "Use binary search to find the commit that introduced a bug",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "When would you use the 'git-bisect' command?",
+			"answers": [{
+					"answer": "To use binary search to find the commit that introduced a bug",
+					"correct": true
+				},
+				{
+					"answer": "Add file contents to the index",
+					"correct": false
+				},
+				{
+					"answer": "Create an archive of files from a named tree",
+					"correct": false
+				},
+				{
+					"answer": "List, create, or delete branches",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the 'git-branch' command do?",
+			"answers": [{
+					"answer": "List, create, or delete branches",
+					"correct": true
+				},
+				{
+					"answer": "Add file contents to the index",
+					"correct": false
+				},
+				{
+					"answer": "Create an archive of files from a named tree",
+					"correct": false
+				},
+				{
+					"answer": "Apply a series of patches from a mailbox",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the purpose of the 'git-bundle' command?",
+			"answers": [{
+					"answer": "Move objects and refs by archive",
+					"correct": true
+				},
+				{
+					"answer": "Add file contents to the index",
+					"correct": false
+				},
+				{
+					"answer": "Create an archive of files from a named tree",
+					"correct": false
+				},
+				{
+					"answer": "Use binary search to find the commit that introduced a bug",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the 'git-checkout' command do?",
+			"answers": [{
+					"answer": "Switch branches or restore working tree files",
+					"correct": true
+				},
+				{
+					"answer": "Add file contents to the index",
+					"correct": false
+				},
+				{
+					"answer": "Create an archive of files from a named tree",
+					"correct": false
+				},
+				{
+					"answer": "Use binary search to find the commit that introduced a bug",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the purpose of the 'git-cherry-pick' command?",
+			"answers": [{
+					"answer": "Apply the changes introduced by some existing commits",
+					"correct": true
+				},
+				{
+					"answer": "Add file contents to the index",
+					"correct": false
+				},
+				{
+					"answer": "Create an archive of files from a named tree",
+					"correct": false
+				},
+				{
+					"answer": "Use binary search to find the commit that introduced a bug",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the 'git-citool' command provide?",
+			"answers": [{
+					"answer": "A graphical alternative to git-commit",
+					"correct": true
+				},
+				{
+					"answer": "Add file contents to the index",
+					"correct": false
+				},
+				{
+					"answer": "Create an archive of files from a named tree",
+					"correct": false
+				},
+				{
+					"answer": "Use binary search to find the commit that introduced a bug",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the purpose of the 'git-clean' command?",
+			"answers": [{
+					"answer": "Remove untracked files from the working tree",
+					"correct": true
+				},
+				{
+					"answer": "Add file contents to the index",
+					"correct": false
+				},
+				{
+					"answer": "Create an archive of files from a named tree",
+					"correct": false
+				},
+				{
+					"answer": "Use binary search to find the commit that introduced a bug",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What are the main differences between Git's high-level ('porcelain') commands and low-level ('plumbing') commands?",
+			"answers": [{
+					"answer": "High-level commands are primarily for end-users, while low-level commands are for scripted use.",
+					"correct": true
+				},
+				{
+					"answer": "Low-level commands have a more stable interface than high-level commands.",
+					"correct": true
+				},
+				{
+					"answer": "Low-level commands are subject to frequent changes.",
+					"correct": false
+				},
+				{
+					"answer": "High-level commands are meant for manipulating objects.",
+					"correct": false
+				},
+				{
+					"answer": "High-level commands are used for interacting with foreign SCM.",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "Which command is used to apply a patch to files and/or to the index?",
+			"answers": [{
+					"answer": "git-apply",
+					"correct": true
+				},
+				{
+					"answer": "git-hash-object",
+					"correct": false
+				},
+				{
+					"answer": "git-index-pack",
+					"correct": false
+				},
+				{
+					"answer": "git-merge-file",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the 'git-commit-tree' command do?",
+			"answers": [{
+					"answer": "Create a new commit object",
+					"correct": true
+				},
+				{
+					"answer": "Copy files from the index to the working tree",
+					"correct": false
+				},
+				{
+					"answer": "Compute object ID and optionally create an object from a file",
+					"correct": false
+				},
+				{
+					"answer": "Build pack index file for an existing packed archive",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "Which command is used to build a tree-object from ls-tree formatted text?",
+			"answers": [{
+					"answer": "git-mktree",
+					"correct": true
+				},
+				{
+					"answer": "git-read-tree",
+					"correct": false
+				},
+				{
+					"answer": "git-commit-graph",
+					"correct": false
+				},
+				{
+					"answer": "git-prune-packed",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the purpose of the 'git-unpack-objects' command?",
+			"answers": [{
+					"answer": "Unpack objects from a packed archive",
+					"correct": true
+				},
+				{
+					"answer": "Apply a patch to files and/or to the index",
+					"correct": false
+				},
+				{
+					"answer": "Reads tree information into the index",
+					"correct": false
+				},
+				{
+					"answer": "Update the object name stored in a ref safely",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "Which command is used to list the contents of a tree object?",
+			"answers": [{
+					"answer": "git-ls-tree",
+					"correct": true
+				},
+				{
+					"answer": "git-show-index",
+					"correct": false
+				},
+				{
+					"answer": "git-unpack-file",
+					"correct": false
+				},
+				{
+					"answer": "git-verify-pack",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the 'git-show-ref' command do?",
+			"answers": [{
+					"answer": "List references in a local repository",
+					"correct": true
+				},
+				{
+					"answer": "Provide content or type and size information for repository objects",
+					"correct": false
+				},
+				{
+					"answer": "Find commits yet to be applied to upstream",
+					"correct": false
+				},
+				{
+					"answer": "Compares files in the working tree and the index",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the primary purpose of the 'git-daemon' command?",
+			"answers": [{
+					"answer": "To serve as a simple server for Git repositories",
+					"correct": true
+				},
+				{
+					"answer": "To receive missing objects from another repository",
+					"correct": false
+				},
+				{
+					"answer": "To update auxiliary info files for dumb servers",
+					"correct": false
+				},
+				{
+					"answer": "To push objects over HTTP/DAV to another repository",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "Which command is used to push objects over Git protocol to another repository?",
+			"answers": [{
+					"answer": "git-send-pack",
+					"correct": true
+				},
+				{
+					"answer": "git-fetch-pack",
+					"correct": false
+				},
+				{
+					"answer": "git-update-server-info",
+					"correct": false
+				},
+				{
+					"answer": "git-upload-pack",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the purpose of 'git-verify-pack' command?",
+			"answers": [{
+					"answer": "To validate packed Git archive files",
+					"correct": true
+				},
+				{
+					"answer": "To provide content or type information for repository objects",
+					"correct": false
+				},
+				{
+					"answer": "To find commits yet to be applied to upstream",
+					"correct": false
+				},
+				{
+					"answer": "To compare files in the working tree and the index",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What do the interrogate commands primarily focus on?",
+			"answers": [{
+					"answer": "Providing information without modifying the working tree files",
+					"correct": true
+				},
+				{
+					"answer": "Manipulating objects in the repository",
+					"correct": false
+				},
+				{
+					"answer": "Updating branches and commits",
+					"correct": false
+				},
+				{
+					"answer": "Serving as a simple server for Git repositories",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "Which Git command lists commit objects in reverse chronological order?",
+			"answers": [{
+					"answer": "git-rev-list",
+					"correct": true
+				},
+				{
+					"answer": "git-receive-pack",
+					"correct": false
+				},
+				{
+					"answer": "git-unpack-file",
+					"correct": false
+				},
+				{
+					"answer": "git-interpret-trailers",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the primary function of the 'git-rev-parse' command?",
+			"answers": [{
+					"answer": "Picking out and massaging parameters",
+					"correct": true
+				},
+				{
+					"answer": "Creating a new commit object",
+					"correct": false
+				},
+				{
+					"answer": "Building a tree-object from ls-tree formatted text",
+					"correct": false
+				},
+				{
+					"answer": "Unpacking objects from a packed archive",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "Which command provides content or type and size information for repository objects?",
+			"answers": [{
+					"answer": "git-cat-file",
+					"correct": true
+				},
+				{
+					"answer": "git-diff-files",
+					"correct": false
+				},
+				{
+					"answer": "git-name-rev",
+					"correct": false
+				},
+				{
+					"answer": "git-show-ref",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the purpose of the 'git-merge-base' command?",
+			"answers": [{
+					"answer": "To find as good common ancestors as possible for a merge",
+					"correct": true
+				},
+				{
+					"answer": "To apply a patch to files and/or to the index",
+					"correct": false
+				},
+				{
+					"answer": "To compare a tree to the working tree or index",
+					"correct": false
+				},
+				{
+					"answer": "To list references in a local repository",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the 'git-column' command do?",
+			"answers": [{
+					"answer": "Displays data in columns",
+					"correct": true
+				},
+				{
+					"answer": "Copies files from the index to the working tree",
+					"correct": false
+				},
+				{
+					"answer": "Runs merge conflict resolution tools",
+					"correct": false
+				},
+				{
+					"answer": "Counts unpacked number of objects and their disk consumption",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "Which command is used to retrieve and store user credentials?",
+			"answers": [{
+					"answer": "git-credential",
+					"correct": true
+				},
+				{
+					"answer": "git-check-attr",
+					"correct": false
+				},
+				{
+					"answer": "git-check-ignore",
+					"correct": false
+				},
+				{
+					"answer": "git-check-mailmap",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the primary purpose of 'git-fmt-merge-msg' command?",
+			"answers": [{
+					"answer": "To produce a merge commit message",
+					"correct": true
+				},
+				{
+					"answer": "To find commits yet to be applied to upstream",
+					"correct": false
+				},
+				{
+					"answer": "To create a tree object from the current index",
+					"correct": false
+				},
+				{
+					"answer": "To validate packed Git archive files",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the 'git-namespaces' guide provide information about?",
+			"answers": [{
+					"answer": "Git namespaces",
+					"correct": true
+				},
+				{
+					"answer": "Providing usernames and passwords to Git",
+					"correct": false
+				},
+				{
+					"answer": "A useful minimum set of commands for Everyday Git",
+					"correct": false
+				},
+				{
+					"answer": "Defining attributes per path",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "Which Git command is used to run Git hooks?",
+			"answers": [{
+					"answer": "git-hook",
+					"correct": true
+				},
+				{
+					"answer": "git-check-attr",
+					"correct": false
+				},
+				{
+					"answer": "git-count-objects",
+					"correct": false
+				},
+				{
+					"answer": "git-diagnose",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the primary function of the 'git-mailinfo' command?",
+			"answers": [{
+					"answer": "To extract patch and authorship from a single e-mail message",
+					"correct": true
+				},
+				{
+					"answer": "To serve as a simple server for Git repositories",
+					"correct": false
+				},
+				{
+					"answer": "To retrieve and store user credentials",
+					"correct": false
+				},
+				{
+					"answer": "To compute unique ID for a patch",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the primary purpose of 'git-remote-helpers'?",
+			"answers": [{
+					"answer": "Helper programs to interact with remote repositories",
+					"correct": true
+				},
+				{
+					"answer": "Defining attributes per path",
+					"correct": false
+				},
+				{
+					"answer": "A tutorial introduction to Git",
+					"correct": false
+				},
+				{
+					"answer": "Mounting one repository inside another",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the 'git-format-bundle' command handle?",
+			"answers": [{
+					"answer": "The bundle file format",
+					"correct": true
+				},
+				{
+					"answer": "Defining submodule properties",
+					"correct": false
+				},
+				{
+					"answer": "Git index format",
+					"correct": false
+				},
+				{
+					"answer": "Git cryptographic signature formats",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does the 'git-format-index' command cover?",
+			"answers": [{
+					"answer": "Git index format",
+					"correct": true
+				},
+				{
+					"answer": "Git commit-graph format",
+					"correct": false
+				},
+				{
+					"answer": "Git pack format",
+					"correct": false
+				},
+				{
+					"answer": "Git cryptographic signature formats",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the primary purpose of 'git-format-commit-graph'?",
+			"answers": [{
+					"answer": "Git commit-graph format",
+					"correct": true
+				},
+				{
+					"answer": "Git index format",
+					"correct": false
+				},
+				{
+					"answer": "Git pack format",
+					"correct": false
+				},
+				{
+					"answer": "Git cryptographic signature formats",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does 'git-format-signature' involve?",
+			"answers": [{
+					"answer": "Git cryptographic signature formats",
+					"correct": true
+				},
+				{
+					"answer": "Git commit-graph format",
+					"correct": false
+				},
+				{
+					"answer": "Git pack format",
+					"correct": false
+				},
+				{
+					"answer": "Git index format",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the purpose of 'gitprotocol-capabilities'?",
+			"answers": [{
+					"answer": "Protocol v0 and v1 capabilities",
+					"correct": true
+				},
+				{
+					"answer": "Git HTTP-based protocols",
+					"correct": false
+				},
+				{
+					"answer": "How packs are transferred over-the-wire",
+					"correct": false
+				},
+				{
+					"answer": "Git Wire Protocol, Version 2",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does 'gitprotocol-common' cover?",
+			"answers": [{
+					"answer": "Things common to various protocols",
+					"correct": true
+				},
+				{
+					"answer": "Git HTTP-based protocols",
+					"correct": false
+				},
+				{
+					"answer": "How packs are transferred over-the-wire",
+					"correct": false
+				},
+				{
+					"answer": "Git Wire Protocol, Version 2",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the primary function of 'gitprotocol-http'?",
+			"answers": [{
+					"answer": "Git HTTP-based protocols",
+					"correct": true
+				},
+				{
+					"answer": "Things common to various protocols",
+					"correct": false
+				},
+				{
+					"answer": "How packs are transferred over-the-wire",
+					"correct": false
+				},
+				{
+					"answer": "Git Wire Protocol, Version 2",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What do the Git commands 'git-daemon', 'git-http-backend', and 'git-send-pack' have in common?",
+			"answers": [{
+					"answer": "They are all related to syncing repositories.",
+					"correct": true
+				},
+				{
+					"answer": "They are all used for creating commit objects.",
+					"correct": false
+				},
+				{
+					"answer": "They are all internal helper commands.",
+					"correct": false
+				},
+				{
+					"answer": "They are all used for manipulating objects.",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What do internal helper commands primarily assist with?",
+			"answers": [{
+					"answer": "They assist other commands and are not used directly by end-users.",
+					"correct": true
+				},
+				{
+					"answer": "They serve as a simple server for Git repositories.",
+					"correct": false
+				},
+				{
+					"answer": "They provide content or type information for repository objects.",
+					"correct": false
+				},
+				{
+					"answer": "They are used for applying patches to files and the index.",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the primary focus of 'gitattributes'?",
+			"answers": [{
+					"answer": "Defining attributes per path",
+					"correct": true
+				},
+				{
+					"answer": "Providing usernames and passwords to Git",
+					"correct": false
+				},
+				{
+					"answer": "A useful minimum set of commands for Everyday Git",
+					"correct": false
+				},
+				{
+					"answer": "Specifying revisions and ranges for Git",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does 'gitcli' cover?",
+			"answers": [{
+					"answer": "Git command-line interface and conventions",
+					"correct": true
+				},
+				{
+					"answer": "Hooks used by Git",
+					"correct": false
+				},
+				{
+					"answer": "Specifies intentionally untracked files to ignore",
+					"correct": false
+				},
+				{
+					"answer": "Map author/committer names and/or E-Mail addresses",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the primary focus of 'githooks'?",
+			"answers": [{
+					"answer": "Hooks used by Git",
+					"correct": true
+				},
+				{
+					"answer": "Git command-line interface and conventions",
+					"correct": false
+				},
+				{
+					"answer": "Defining attributes per path",
+					"correct": false
+				},
+				{
+					"answer": "Specifying revisions and ranges for Git",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does 'gitignore' primarily specify?",
+			"answers": [{
+					"answer": "Intentionally untracked files to ignore",
+					"correct": true
+				},
+				{
+					"answer": "Git command-line interface and conventions",
+					"correct": false
+				},
+				{
+					"answer": "Defining submodule properties",
+					"correct": false
+				},
+				{
+					"answer": "Git Repository Layout",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does 'gitmailmap' cover?",
+			"answers": [{
+					"answer": "Mapping author/committer names and/or E-Mail addresses",
+					"correct": true
+				},
+				{
+					"answer": "Git command-line interface and conventions",
+					"correct": false
+				},
+				{
+					"answer": "Defining submodule properties",
+					"correct": false
+				},
+				{
+					"answer": "Git Repository Layout",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the primary purpose of 'gitmodules'?",
+			"answers": [{
+					"answer": "Defining submodule properties",
+					"correct": true
+				},
+				{
+					"answer": "Git command-line interface and conventions",
+					"correct": false
+				},
+				{
+					"answer": "Git Repository Layout",
+					"correct": false
+				},
+				{
+					"answer": "Specifying revisions and ranges for Git",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does 'gitrepository-layout' describe?",
+			"answers": [{
+					"answer": "Git Repository Layout",
+					"correct": true
+				},
+				{
+					"answer": "Defining submodule properties",
+					"correct": false
+				},
+				{
+					"answer": "Git command-line interface and conventions",
+					"correct": false
+				},
+				{
+					"answer": "Mapping author/committer names and/or E-Mail addresses",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the primary purpose of 'gitrevisions'?",
+			"answers": [{
+					"answer": "Specifying revisions and ranges for Git",
+					"correct": true
+				},
+				{
+					"answer": "Defining submodule properties",
+					"correct": false
+				},
+				{
+					"answer": "Git command-line interface and conventions",
+					"correct": false
+				},
+				{
+					"answer": "Mapping author/committer names and/or E-Mail addresses",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What does 'gitrepository-layout' describe?",
+			"answers": [{
+					"answer": "Git Repository Layout",
+					"correct": true
+				},
+				{
+					"answer": "Defining submodule properties",
+					"correct": false
+				},
+				{
+					"answer": "Git command-line interface and conventions",
+					"correct": false
+				},
+				{
+					"answer": "Mapping author/committer names and/or E-Mail addresses",
+					"correct": false
+				}
+			],
+			"difficulty": 2
+		},
+		{
+			"question": "What is the primary purpose of the GIT_NAMESPACE environment variable?",
+			"answers": [{
+					"answer": "Sets the Git object directory",
+					"correct": false
+				},
+				{
+					"answer": "Specifies the working tree path",
+					"correct": false
+				},
+				{
+					"answer": "Defines a namespace for Git objects",
+					"correct": true
+				},
+				{
+					"answer": "Sets the default hash algorithm",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "Which environment variable is used to specify an alternate index file in Git?",
+			"answers": [{
+					"answer": "GIT_INDEX_PATH",
+					"correct": false
+				},
+				{
+					"answer": "GIT_ALTERNATE_INDEX",
+					"correct": false
+				},
+				{
+					"answer": "GIT_CUSTOM_INDEX",
+					"correct": false
+				},
+				{
+					"answer": "GIT_INDEX_FILE",
+					"correct": true
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What does GIT_INDEX_FILE specify in Git?",
+			"answers": [{
+					"answer": "The path to the common object storage",
+					"correct": false
+				},
+				{
+					"answer": "The name of the current branch",
+					"correct": false
+				},
+				{
+					"answer": "An alternate index file",
+					"correct": true
+				},
+				{
+					"answer": "The location of Git hooks",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What environment variable defines a list of directories where Git can search for objects?",
+			"answers": [{
+					"answer": "GIT_OBJECT_PATH",
+					"correct": false
+				},
+				{
+					"answer": "GIT_OBJECT_DIRECTORY",
+					"correct": false
+				},
+				{
+					"answer": "GIT_ALTERNATE_OBJECT_DIRECTORIES",
+					"correct": true
+				},
+				{
+					"answer": "GIT_OBJECT_PATHS",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What is the symbolic identifier for the head of the current branch in Git?",
+			"answers": [{
+					"answer": "<branch>",
+					"correct": false
+				},
+				{
+					"answer": "<head>",
+					"correct": true
+				},
+				{
+					"answer": "<tag>",
+					"correct": false
+				},
+				{
+					"answer": "<object>",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "Which object type is indicated by <type> in Git terminology?",
+			"answers": [{
+					"answer": "Tree",
+					"correct": true
+				},
+				{
+					"answer": "Commit",
+					"correct": false
+				},
+				{
+					"answer": "Blob",
+					"correct": false
+				},
+				{
+					"answer": "Tag",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What environment variable specifies the version of the index file used when writing it out?",
+			"answers": [{
+					"answer": "GIT_INDEX_VERSION",
+					"correct": true
+				},
+				{
+					"answer": "GIT_OBJECT_DIRECTORY",
+					"correct": false
+				},
+				{
+					"answer": "GIT_ALTERNATE_OBJECT_DIRECTORIES",
+					"correct": false
+				},
+				{
+					"answer": "GIT_DEFAULT_HASH",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What does the GIT_ALTERNATE_OBJECT_DIRECTORIES environment variable specify?",
+			"answers": [{
+					"answer": "A list of directory paths",
+					"correct": true
+				},
+				{
+					"answer": "The location of Git hooks",
+					"correct": false
+				},
+				{
+					"answer": "The default hash algorithm",
+					"correct": false
+				},
+				{
+					"answer": "The object storage directory",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What is the primary purpose of the GIT_NAMESPACE environment variable?",
+			"answers": [{
+					"answer": "Sets the Git object directory",
+					"correct": false
+				},
+				{
+					"answer": "Specifies the working tree path",
+					"correct": false
+				},
+				{
+					"answer": "Defines a namespace for Git objects",
+					"correct": true
+				},
+				{
+					"answer": "Sets the default hash algorithm",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What environment variable prevents Git from stopping at filesystem boundaries when searching for a repository directory?",
+			"answers": [{
+					"answer": "GIT_DISCOVERY_STOP",
+					"correct": false
+				},
+				{
+					"answer": "GIT_CEILING_DIRECTORIES",
+					"correct": false
+				},
+				{
+					"answer": "GIT_NO_FILESYSTEM_LIMIT",
+					"correct": false
+				},
+				{
+					"answer": "GIT_FILESYSTEM_CROSS",
+					"correct": true
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "Which Git command accepts an <object> as a parameter?",
+			"answers": [{
+					"answer": "git-diff",
+					"correct": false
+				},
+				{
+					"answer": "git-log",
+					"correct": false
+				},
+				{
+					"answer": "git-status",
+					"correct": false
+				},
+				{
+					"answer": "All of the above",
+					"correct": true
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What environment variable specifies an alternate index file in Git?",
+			"answers": [{
+					"answer": "GIT_INDEX_PATH",
+					"correct": false
+				},
+				{
+					"answer": "GIT_ALTERNATE_INDEX",
+					"correct": false
+				},
+				{
+					"answer": "GIT_CUSTOM_INDEX",
+					"correct": false
+				},
+				{
+					"answer": "GIT_INDEX_FILE",
+					"correct": true
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What does the GIT_CEILING_DIRECTORIES environment variable exclude when looking for a Git repository directory?",
+			"answers": [{
+					"answer": "Slow-loading network directories",
+					"correct": true
+				},
+				{
+					"answer": "The current working directory",
+					"correct": false
+				},
+				{
+					"answer": "Symlinked directories",
+					"correct": false
+				},
+				{
+					"answer": "All directories with Git repositories",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "Which environment variable is used to specify the total number of paths when GIT_EXTERNAL_DIFF is used?",
+			"answers": [{
+					"answer": "GIT_TOTAL_PATHS",
+					"correct": false
+				},
+				{
+					"answer": "GIT_DIFF_TOTAL_PATHS",
+					"correct": false
+				},
+				{
+					"answer": "GIT_DIFF_PATH_TOTAL",
+					"correct": true
+				},
+				{
+					"answer": "GIT_PATH_TOTAL",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What is the GIT_DEFAULT_HASH environment variable used for?",
+			"answers": [{
+					"answer": "Specifying the default Git branch",
+					"correct": false
+				},
+				{
+					"answer": "Setting the default hash algorithm for new repositories",
+					"correct": true
+				},
+				{
+					"answer": "Configuring the Git user name",
+					"correct": false
+				},
+				{
+					"answer": "Specifying the Git object format",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "Which environment variable is used to specify the email address in the author identity for Git commits?",
+			"answers": [{
+					"answer": "GIT_AUTHOR_NAME",
+					"correct": false
+				},
+				{
+					"answer": "GIT_AUTHOR_EMAIL",
+					"correct": true
+				},
+				{
+					"answer": "GIT_COMMITTER_NAME",
+					"correct": false
+				},
+				{
+					"answer": "EMAIL",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What does GIT_INDEX_VERSION specify in Git?",
+			"answers": [{
+					"answer": "The version of the Git configuration file",
+					"correct": false
+				},
+				{
+					"answer": "The version of the Git index file",
+					"correct": true
+				},
+				{
+					"answer": "The version of the Git binary",
+					"correct": false
+				},
+				{
+					"answer": "The version of the Git object format",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "Which Git command accepts a <commit-ish> as a parameter?",
+			"answers": [{
+					"answer": "git-add",
+					"correct": false
+				},
+				{
+					"answer": "git-branch",
+					"correct": false
+				},
+				{
+					"answer": "git-log",
+					"correct": true
+				},
+				{
+					"answer": "git-status",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What is the GIT_DEFAULT_HASH environment variable used for?",
+			"answers": [{
+					"answer": "Specifying the default Git branch",
+					"correct": false
+				},
+				{
+					"answer": "Setting the default hash algorithm for new repositories",
+					"correct": true
+				},
+				{
+					"answer": "Configuring the Git user name",
+					"correct": false
+				},
+				{
+					"answer": "Specifying the Git object format",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "Which environment variable is used to specify the email address in the author identity for Git commits?",
+			"answers": [{
+					"answer": "GIT_AUTHOR_NAME",
+					"correct": false
+				},
+				{
+					"answer": "GIT_AUTHOR_EMAIL",
+					"correct": true
+				},
+				{
+					"answer": "GIT_COMMITTER_NAME",
+					"correct": false
+				},
+				{
+					"answer": "EMAIL",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "What does GIT_INDEX_VERSION specify in Git?",
+			"answers": [{
+					"answer": "The version of the Git configuration file",
+					"correct": false
+				},
+				{
+					"answer": "The version of the Git index file",
+					"correct": true
+				},
+				{
+					"answer": "The version of the Git binary",
+					"correct": false
+				},
+				{
+					"answer": "The version of the Git object format",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		},
+		{
+			"question": "Which Git command accepts a <commit-ish> as a parameter?",
+			"answers": [{
+					"answer": "git-add",
+					"correct": false
+				},
+				{
+					"answer": "git-branch",
+					"correct": false
+				},
+				{
+					"answer": "git-log",
+					"correct": true
+				},
+				{
+					"answer": "git-status",
+					"correct": false
+				}
+			],
+			"difficulty": 1
+		}
+
+	]
+}
