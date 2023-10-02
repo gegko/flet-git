@@ -5,5 +5,8 @@ An example of a minimal Flet app.
 To run the app:
 
 ```
-flet run [app_directory]
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+flet run --web
 ```
